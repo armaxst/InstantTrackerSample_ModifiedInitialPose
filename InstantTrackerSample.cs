@@ -101,7 +101,7 @@ public class InstantTrackerSample : MonoBehaviour
                 {
                     cvtMat[i] = RTn[i];
                 }
-                cvtMat = cvtMat.transpose;
+                //cvtMat = cvtMat.transpose;
             }
  
             readyConvertingMatrixDone = true;
